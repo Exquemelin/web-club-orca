@@ -1,0 +1,66 @@
+
+
+.dropdown-menu {
+    background-color: lighten($color: $charcoal, $amount: 10);
+}
+
+.dropdown-item {
+    color: lighten($color: $charcoal, $amount: 50);
+    font-family: 'Nunito';
+    font-weight: bold;
+}
+
+.dropdown-item:hover {
+    background-color: white;
+}
+
+.navbar-toggler {
+    background-color: lighten($color: $charcoal, $amount: 50);
+}
+
+.navbar-toggler.collapsed {
+    background-color: lighten($color: $charcoal, $amount: 50);
+}
+
+
+
+.navbar__navbar {
+    color: lighten($color: $charcoal, $amount: 50);
+    background-color: $charcoal;
+}
+
+.navbar__link {
+    color: lighten($color: $charcoal, $amount: 50);
+    font-family: 'Nunito';
+    font-weight: bold;
+    padding: 8px;
+}
+
+.navbar__link:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar__active {
+    color: black;
+}
+
+.navbar__dplink {
+    background-color: red;
+    color: lighten($color: $charcoal, $amount: 50);
+    font-family: 'Nunito';
+    font-weight: bold;
+    padding: 8px 32px;
+    width: auto;
+}
+
+#basic-nav-dropdown {
+    color: lighten($color: $charcoal, $amount: 50);
+    font-family: 'Nunito';
+    font-weight: bold;
+    padding: 8px;
+}
+
+#basic-nav-dropdown:hover {
+    color: black;
+}

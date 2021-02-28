@@ -1,0 +1,11 @@
+// Importamos Bootstrap para hacer cambios en el nav
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+// Hacemos las importacione de todos los archivos
+@import './base/settings';
+@import './base/base';
+
+
+// Components
+@import './components/navbar';
