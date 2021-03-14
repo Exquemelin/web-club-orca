@@ -1,0 +1,89 @@
+// TODO: Limpiar código
+
+.about__header {
+    font-family: 'Nunito';
+    margin-top: 15px;
+}
+
+.about__header h1 {
+    // border: 1px solid pink;
+    font-family: 'Nunito';
+    font-weight: 700;
+}
+
+.about__header h1::after {
+    content: '';
+    background: $burnt-sienna;
+    display: block;
+    height: 4px;
+    left: 0px;
+    margin-top: 8px;
+    top: 32px;
+    width: 80px;
+}
+
+.about__image {
+    // width: auto;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    padding: 0;
+    // max-height: 200px;
+}
+
+.about__image:hover {
+    border: 1px solid blue;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: all .5s ease-in-out;
+    overflow: hidden;
+}
+
+.about__image-adjust {
+    // aspect-ratio: 755/191;
+    max-height: 100px;
+    max-width: 100%;
+    padding-block: 10px;
+}
+
+.about__cols {
+    // align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // padding: auto;
+    // border: 1px solid yellow;
+    font-family: 'Nunito';
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+.about__cols-image {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    // padding: auto;
+    // border: 1px solid blue;
+    overflow: hidden;
+    padding: 0px;
+
+}
+
+// .about__test {
+//     border: 1px solid purple;
+//     vertical-align: middle;
+//     padding: 0;
+// }
+
+// .about__text {
+//     border: 1px solid orange;
+//     vertical-align: middle;
+//     padding: 20px;
+//     margin: 0;
+// }
+
+// .about__image-test {
+//     object-fit: cover;
+//     width: 100%;
+//     overflow: hidden;
+//     max-height: 300px;
+// }

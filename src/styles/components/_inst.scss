@@ -1,0 +1,86 @@
+.inst__page {
+    font-family: 'Nunito';
+}
+
+.inst__header {
+    font-family: 'Nunito';
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.inst__header h1 {
+    font-weight: 700;
+}
+
+.inst__header h1::after {
+    content: '';
+    background: $burnt-sienna;
+    display: block;
+    height: 4px;
+    left: 0px;
+    margin-top: 8px;
+    top: 32px;
+    width: 80px;
+}
+
+// .inst__slider {
+//     // border: 3px solid red;
+//     border: 0;
+//     box-shadow: none;
+// }
+
+// .inst__image {
+//     // border: 3px solid yellow;
+//     border: 0;
+//     box-shadow: none;
+
+// }
+
+.inst__image:focus {
+    // border: 3px solid yellow;
+    // border: 0;
+    // box-shadow: none;
+    outline: 0;
+    outline: none;
+}
+
+// .inst__item:focus {
+//     border: 0;
+//     box-shadow: none;
+//     outline: 0;
+//     outline: none;
+// }
+
+// .inst__item::selection {
+//     border: 0;
+//     box-shadow: none;
+// }
+
+.inst__modal-header {
+    font-family: 'Nunito';
+    // align-content: center;
+    justify-content: center;
+    width: 100%;
+    // position: relative;
+    // padding-inline: 0;
+    // padding-inline: 20px;
+}
+
+// .inst__modal-title {
+//     align-items: center;
+//     border: 1px solid red;
+// }
+
+.inst__modal-header h1 {
+    font-weight: 700;
+    margin-block: 0.5rem;
+}
+
+.inst__modal-body {
+    font-family: 'Nunito';
+    text-align: justify;
+}
+
+// .inst__modal-hr {
+//     width: 100%;
+// }
