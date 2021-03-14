@@ -37,7 +37,7 @@ export const NavbarSite = () => {
                                 INSTALACIONES
                             </NavLink>
                         </NavDropdown.Item>
-                        <NavDropdown.Item>
+                        {/* <NavDropdown.Item>
                             <NavLink
                                 activeClassName="navbar__active"
                                 className="navbar__link"
@@ -46,7 +46,7 @@ export const NavbarSite = () => {
                             >
                                 EL EQUIPO
                             </NavLink>
-                        </NavDropdown.Item>
+                        </NavDropdown.Item> */}
                     </NavDropdown>
                     <NavLink
                         activeClassName="navbar__active"

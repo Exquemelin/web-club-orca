@@ -1,0 +1,189 @@
+// TODO: Limpiar código
+// TODO: Quitar todo lo de about
+
+.learning__header {
+    font-family: 'Nunito';
+    margin-top: 15px;
+}
+
+.learning__header h1 {
+    // border: 1px solid pink;
+    font-family: 'Nunito';
+    font-weight: 700;
+}
+
+.learning__header h1::after {
+    content: '';
+    background: $burnt-sienna;
+    display: block;
+    height: 4px;
+    left: 0px;
+    margin-top: 8px;
+    top: 32px;
+    width: 80px;
+}
+
+.learning__rows {
+    margin-inline: 0px;
+}
+
+.learning__cols {
+    // align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // padding: auto;
+    // border: 1px solid yellow;
+    font-family: 'Nunito';
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+.learning__cols h2 {
+    // border: 1px solid pink;
+    font-family: 'Nunito';
+    font-weight: 550;
+}
+
+.learning__cols-image {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    // padding: auto;
+    // border: 1px solid blue;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.learning__image {
+    // aspect-ratio: 4/3;
+    width: 100%;
+    // max-height: 100px;
+    // overflow: hidden;
+    // background-size: cover;
+    // object-fit: cover;
+    // margin-block: 15px;
+    padding-inline: 20px;
+    // max-height: 200px;
+}
+
+.learning__image-test {
+    float: left;
+    // height: 100px;
+    width: 100%;
+    // aspect-ratio: 4/3;
+    padding-inline: 0px;
+    padding-block-end: 15px;
+}
+
+@media (min-width: 768px ) {
+    .learning__image {
+        padding-inline-end: 0px;
+    }
+
+    .learning__image-test {
+        width: 300px;
+        padding-inline-end: 20px;
+    }
+}
+
+
+.learning__card {
+    background-color: #f8f8f8;
+    font-family: 'Nunito';
+    // padding: 20px;
+    text-align: justify;
+    // height: 400px;
+}
+
+.learning__card-header {
+    margin-block: 0;
+    // justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-block: 15px;
+}
+
+.learning__card-header h5 {
+    margin: 0;
+}
+
+.learning__card-body {
+    padding-inline: 20px;
+}
+
+.learning__card-cols {
+    padding-inline: 15px;
+}
+
+.learning__rows-spec {
+    display: flex;
+}
+
+.learning__card-spec {
+    background-color: #f8f8f8;
+    font-family: 'Nunito';
+    // padding-inline: 20px;
+    text-align: justify;
+    // height: 450px;
+}
+
+@media (min-width: 992px) {
+    .learning__card-spec {
+        height: 375px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .learning__card-spec {
+        height: 470px;
+    }
+}
+
+.learning__card-header-spec {
+    margin-block: 0;
+    // justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-block: 15px;
+}
+
+.learning__card-header-spec h5 {
+    margin: 0;
+}
+    
+.about__image:hover {
+    border: 1px solid blue;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: all .5s ease-in-out;
+    overflow: hidden;
+}
+
+.about__image-adjust {
+    // aspect-ratio: 755/191;
+    max-height: 100px;
+    max-width: 100%;
+    padding-block: 10px;
+}
+
+
+
+// .about__test {
+//     border: 1px solid purple;
+//     vertical-align: middle;
+//     padding: 0;
+// }
+
+// .about__text {
+//     border: 1px solid orange;
+//     vertical-align: middle;
+//     padding: 20px;
+//     margin: 0;
+// }
+
+// .about__image-test {
+//     object-fit: cover;
+//     width: 100%;
+//     overflow: hidden;
+//     max-height: 300px;
+// }
