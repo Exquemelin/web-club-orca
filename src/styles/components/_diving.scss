@@ -1,0 +1,49 @@
+.diving__header {
+    font-family: 'Nunito';
+    margin-top: 15px;
+}
+
+.diving__header h1 {
+    // border: 1px solid pink;
+    font-family: 'Nunito';
+    font-weight: 700;
+}
+
+.diving__header h1::after {
+    content: '';
+    background: $burnt-sienna;
+    display: block;
+    height: 4px;
+    left: 0px;
+    margin-top: 8px;
+    top: 32px;
+    width: 80px;
+}
+
+.diving__col {
+    margin-block: 15px;
+    font-family: 'Nunito';
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+.diving__card {
+    background-color: #f8f8f8;
+}
+
+.diving__card-footer {
+    cursor:pointer;
+}
+
+.diving__modal-header {
+    font-family: 'Nunito';
+}
+
+.diving__modal-body {
+    font-family: 'Nunito';
+    text-align: justify;
+}
+
+.diving__modal-body p {
+    padding-block-start: 15px
+}

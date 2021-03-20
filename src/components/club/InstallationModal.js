@@ -39,7 +39,7 @@ export const InstallationModal = ( show ) => {
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={ handleClose }>
-              Close
+              Cerrar
             </Button>
           </Modal.Footer>
         </Modal>

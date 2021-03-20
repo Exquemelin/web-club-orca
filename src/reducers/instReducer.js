@@ -11,7 +11,7 @@ const initialState = {
         dada: '',
         img: '',
     }
-}
+};
 
 
 // Creamos el reducer
@@ -25,7 +25,7 @@ export const installationReducer = ( state = initialState, action ) => {
             return {
                 ...state,
                 showModal: true,
-            }
+            };
 
         case types.instHideModal:
 
@@ -33,7 +33,7 @@ export const installationReducer = ( state = initialState, action ) => {
             return {
                 ...state,
                 showModal: false,
-            }
+            };
 
         case types.instSlideIndex:
 
@@ -41,7 +41,7 @@ export const installationReducer = ( state = initialState, action ) => {
             return {
                 ...state,
                 slideIndex: action.payload,
-            }
+            };
 
         case types.instActiveSlide:
 
@@ -49,7 +49,7 @@ export const installationReducer = ( state = initialState, action ) => {
             return {
                 ...state,
                 activeSlide: action.payload,
-            }
+            };
                 
         default:
 
