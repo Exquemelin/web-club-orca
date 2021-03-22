@@ -8,7 +8,7 @@ export const DivingScreen = () => {
         <div className="container">
 
             <div className="diving__header">
-                <h1>Diving Screen</h1>
+                <h1>Inmersiones</h1>
             </div>
 
             <SiteGrid />

@@ -1,0 +1,103 @@
+.galery__header {
+    font-family: 'Nunito';
+    margin-top: 15px;
+}
+
+.galery__header h1 {
+    // border: 1px solid pink;
+    font-family: 'Nunito';
+    font-weight: 700;
+}
+
+.galery__header h1::after {
+    content: '';
+    background: $burnt-sienna;
+    display: block;
+    height: 4px;
+    left: 0px;
+    margin-top: 8px;
+    top: 32px;
+    width: 80px;
+}
+
+.galery__card {
+    // border: 1px solid red;
+    text-align: center;
+    padding-block: 20px;
+}
+
+.galery__card h4 {
+    // border: 1px solid red;
+    text-align: center;
+    padding-block: 15px
+}
+
+.galery__card-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.galery__modal {
+    font-family: 'Nunito';
+    // height: 800px;
+}
+
+.galery__modal-header {
+    font-family: 'Nunito';
+    text-align: center;
+    // width: 90%;
+}
+
+.galery__modal-header h1 {
+    font-family: 'Nunito';
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+}
+
+.galery__carousel-list {
+    border: 1px solid yellow;
+    height: 20px;
+    width: 20px;
+}
+
+.galery__carousel-indicators {
+    padding-inline-start: 0px;
+    overflow: hidden;
+    // overflow-inline: hidden;
+    // width: 700 px;
+    display: flex;
+}
+
+.galery__carousel-indicators li {
+    display: inline-block;
+}
+
+.galery__carousel-indicators-miniatures {
+    padding-inline-start: 0px;
+    // overflow: hidden;
+    // overflow-inline: hidden;
+    // width: 700 px;
+    display: flex;
+}
+
+.galery__carousel-indicators-miniatures li {
+    display: inline-block;
+}
+
+
+.galery__carousel-indicators-image {
+    height: 50px;
+    margin: 5px;
+    width: 75px;
+    border: 1px solid yellow;
+}
+
+.carousel-indicators li {
+    // visibility: hidden;
+    height: 30px;
+}

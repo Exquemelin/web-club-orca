@@ -1,0 +1,21 @@
+.app__header {
+    font-family: 'Nunito';
+    margin-top: 15px;
+}
+
+.app__header h1 {
+    // border: 1px solid pink;
+    font-family: 'Nunito';
+    font-weight: 700;
+}
+
+.app__header h1::after {
+    content: '';
+    background: $burnt-sienna;
+    display: block;
+    height: 4px;
+    left: 0px;
+    margin-top: 8px;
+    top: 32px;
+    width: 80px;
+}

@@ -26,7 +26,6 @@ export const SiteGrid = () => {
 
                 {
                     data.map( site => (
-                        console.log(site),
                         <SiteGridItem  
                         key={ site.id }
                         { ...site }
