@@ -1,7 +1,6 @@
 {
   "name": "club-buceo-orca",
   "version": "0.1.0",
-  "homepage": "https://exquemelin.github.io/web-club-orca/",
   "private": true,
   "dependencies": {
     "@material-ui/icons": "^4.11.2",
