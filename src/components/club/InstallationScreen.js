@@ -3,7 +3,7 @@ import React from 'react'
 
 import { InstallationModal } from './InstallationModal';
 import { InstallationCarousel } from './InstallationCarousel';
-import { instShowModal } from '../../actions/inst';
+// import { instShowModal } from '../../actions/inst';
 
 
 export const InstallationScreen = () => {

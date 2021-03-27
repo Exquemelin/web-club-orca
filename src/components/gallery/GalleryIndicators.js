@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
-import ArrowBackRoundedIcon from '@material-ui/icons/ArrowBackRounded';
-import ArrowForwardRoundedIcon from '@material-ui/icons/ArrowForwardRounded';
+// import ArrowBackRoundedIcon from '@material-ui/icons/ArrowBackRounded';
+// import ArrowForwardRoundedIcon from '@material-ui/icons/ArrowForwardRounded';
 
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
@@ -21,7 +21,7 @@ export const GalleryIndicators = ( gallery ) => {
     for ( var i=1; i <= gallery.number; i++) {
 
         // Inicializamos una variable para el index
-        const ind = ``;
+        // const ind = ``;
 
         // Si el índice es menor de 10, hay que poner un 0 delante
         if ( i < 10 ) {

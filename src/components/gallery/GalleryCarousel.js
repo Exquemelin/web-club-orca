@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Carousel } from 'react-bootstrap'
-import { GalleryIndicators } from './GalleryIndicators';
+// import { GalleryIndicators } from './GalleryIndicators';
 
 const initialState = {
     index: 1
@@ -17,7 +17,7 @@ export const GalleryCarousel = ( gallery ) => {
     for ( var i=1; i <= gallery.number; i++) {
 
         // Inicializamos una variable para el index
-        const ind = ``;
+        // const ind = ``;
 
         // Si el índice es menor de 10, hay que poner un 0 delante
         if ( i < 10 ) {
