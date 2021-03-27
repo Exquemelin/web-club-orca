@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.aad63acc.chunk.css",
-    "main.js": "/static/js/main.a364ae42.chunk.js",
-    "main.js.map": "/static/js/main.a364ae42.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.744df0a9.js",
-    "runtime-main.js.map": "/static/js/runtime-main.744df0a9.js.map",
-    "static/css/2.658248ec.chunk.css": "/static/css/2.658248ec.chunk.css",
-    "static/js/2.00d74081.chunk.js": "/static/js/2.00d74081.chunk.js",
-    "static/js/2.00d74081.chunk.js.map": "/static/js/2.00d74081.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.658248ec.chunk.css.map": "/static/css/2.658248ec.chunk.css.map",
-    "static/css/main.aad63acc.chunk.css.map": "/static/css/main.aad63acc.chunk.css.map",
-    "static/js/2.00d74081.chunk.js.LICENSE.txt": "/static/js/2.00d74081.chunk.js.LICENSE.txt"
+    "main.css": "/web-club-orca/static/css/main.aad63acc.chunk.css",
+    "main.js": "/web-club-orca/static/js/main.a364ae42.chunk.js",
+    "main.js.map": "/web-club-orca/static/js/main.a364ae42.chunk.js.map",
+    "runtime-main.js": "/web-club-orca/static/js/runtime-main.a39604cf.js",
+    "runtime-main.js.map": "/web-club-orca/static/js/runtime-main.a39604cf.js.map",
+    "static/css/2.658248ec.chunk.css": "/web-club-orca/static/css/2.658248ec.chunk.css",
+    "static/js/2.00d74081.chunk.js": "/web-club-orca/static/js/2.00d74081.chunk.js",
+    "static/js/2.00d74081.chunk.js.map": "/web-club-orca/static/js/2.00d74081.chunk.js.map",
+    "index.html": "/web-club-orca/index.html",
+    "static/css/2.658248ec.chunk.css.map": "/web-club-orca/static/css/2.658248ec.chunk.css.map",
+    "static/css/main.aad63acc.chunk.css.map": "/web-club-orca/static/css/main.aad63acc.chunk.css.map",
+    "static/js/2.00d74081.chunk.js.LICENSE.txt": "/web-club-orca/static/js/2.00d74081.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.744df0a9.js",
+    "static/js/runtime-main.a39604cf.js",
     "static/css/2.658248ec.chunk.css",
     "static/js/2.00d74081.chunk.js",
     "static/css/main.aad63acc.chunk.css",
