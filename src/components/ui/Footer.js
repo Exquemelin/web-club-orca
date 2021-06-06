@@ -40,7 +40,7 @@ export const Footer = () => {
                 <div className="col-md-9 footer-header">
                     <div className="col footer__local-col">
                     <h5>¿DÓNDE ESTAMOS?</h5>
-                        <a href="https://apps.apple.com/ve/app/club-buceo-orca/id1520250274" target="_blank" rel="noreferrer">
+                        <a href="https://goo.gl/maps/b9cTxr1iFexgcXBeA" target="_blank" rel="noreferrer">
                             <img className="footer__local" src={ './assets/images/localizacion.png' } alt="localizacion" title="Localización" />
                         </a>
                     </div>
