@@ -11,7 +11,7 @@ export const NavbarSite = () => {
     return (
     
         // TODO: Cambiar el Brand por el logo del club
-        <Navbar className="navbar__navbar" expand="md">
+        <Navbar className="navbar__navbar" expand="md" sticky="top">
             <Navbar.Brand href="/">LOGO ORCA</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

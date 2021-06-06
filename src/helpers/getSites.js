@@ -33,30 +33,32 @@ import { diveSite } from "../data/diveSites";
 export const getSites = async ( category ) => {
 
     // Cogemos los datos del directorio data mientras se solucione el problema del fetch
-    const sites = diveSite;
+    // const sites = diveSite;
 
 
-    // // Creamos una variable para almacenar la url de consulta
-    // // URL de Producción
-    // const _url = 'https://dive-scanner.herokuapp.com/data/0';
-    // // apiKey de Producción
-    // const _apiKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjoiNWZjNTczYTdkOTA4NDE1MmI4ODNkMWY3IiwiaWF0IjoxNjA3MjUzOTU1fQ.9jutUeNIVv3tSJwYzTtBhthxqrl3SqutkEh6W3Uoc2o';
+    // Creamos una variable para almacenar la url de consulta
+    // URL de Producción
+    const _url = 'https://dive-scanner.herokuapp.com/data/0';
+    // apiKey de Producción
+    const _apiKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjoiNWZjNTczYTdkOTA4NDE1MmI4ODNkMWY3IiwiaWF0IjoxNjE2ODg2MjEzfQ.3xQ8endxf0dY7zckAYBbjr-syo6UV96XhtVIH9Bzd5I';
 
-    // // Necesitamos usar encodeURI para que convierta texto en otro que la url pueda usar
-    // const url = `${ _url }/site?token=${ _apiKey }`
+    // Necesitamos usar encodeURI para que convierta texto en otro que la url pueda usar
+    const url = `${ _url }/site?token=${ _apiKey }`
 
     // console.log( url );
 
-    // // Almacenamos la respuesta de la consulta en una variable
-    // const resp = await fetch( url );
+    // Almacenamos la respuesta de la consulta en una variable
+    const resp = await fetch( url );
 
-    // // Decodificamos la respuesta en formato json
-    // const data = await resp.json();
+    // Decodificamos la respuesta en formato json
+    const { sites } = await resp.json();
 
-    // console.log( resp );
+    // console.log( data );
 
-    // // Extraemos la data que nos interesa de cada imagen, ya que tienen mucha información
-    // const gifs = data.map( img => {
+    
+
+    // Extraemos la data que nos interesa de cada imagen, ya que tienen mucha información
+    // const sites = data.map( img => {
     //     return {
     //         id: img.id,
     //         title: img.title,

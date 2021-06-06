@@ -56,6 +56,16 @@
     width: 100%;
 }
 
+.app__footer {
+    aspect-ratio: 40/12;
+    border-radius: 15px;
+    // height: 120px;
+    max-width: 240px;
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+}
+
 @media (min-width: 768px ) {
     .app__store {
         max-width: 400px

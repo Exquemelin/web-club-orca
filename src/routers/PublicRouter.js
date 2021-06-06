@@ -13,6 +13,7 @@ import { DivingScreen } from '../components/diving/DivingScreen'
 import { GalleryScreen } from '../components/gallery/GalleryScreen'
 import { LearningScreen } from '../components/learning/LearningScreen'
 import { MobileAppScreen } from '../components/mobile/MobileAppScreen'
+import { Footer } from '../components/ui/Footer'
 import { NavbarSite } from '../components/ui/Navbar'
 
 export const PublicRouter = () => {
@@ -36,6 +37,8 @@ export const PublicRouter = () => {
                     
                 </Switch>
             </div>
+
+            <Footer />
 
         </>
         
