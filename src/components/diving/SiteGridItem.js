@@ -31,7 +31,8 @@ export const SiteGridItem = ( site ) => {
                 <div className="card-header">
                     <h5 className="card-title">{ site.name }</h5>
                 </div>
-                <img src="https://res.cloudinary.com/drnoemuze/image/upload/v1613511176/cx2brbnwutmx7rvoar0o.png" className="card-img" alt="Imagen de la inmersión"></img>
+                {/* <img src="https://res.cloudinary.com/drnoemuze/image/upload/v1613511176/cx2brbnwutmx7rvoar0o.png" className="card-img" alt="Imagen de la inmersión"></img> */}
+                <img src={ site.photo } className="card-img" alt="Imagen de la inmersión"></img>
                 <div className="card-body">
                     <p className="card-text">{ site.description }</p>
                     <ul>

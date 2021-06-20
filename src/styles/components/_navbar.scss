@@ -29,6 +29,11 @@
     background-color: $charcoal;
 }
 
+.navbar__logo {
+    height: 50px;
+    width: 50px;
+}
+
 .navbar__link {
     color: lighten($color: $charcoal, $amount: 50);
     font-family: 'Nunito';

@@ -41,7 +41,7 @@ export const Footer = () => {
                     <div className="col footer__local-col">
                     <h5>¿DÓNDE ESTAMOS?</h5>
                         <a href="https://goo.gl/maps/b9cTxr1iFexgcXBeA" target="_blank" rel="noreferrer">
-                            <img className="footer__local" src={ './assets/images/localizacion.png' } alt="localizacion" title="Localización" />
+                            <img className="footer__local" src={ './assets/images/localizacion.PNG' } alt="localizacion" title="Localización" />
                         </a>
                     </div>
                     <p></p>

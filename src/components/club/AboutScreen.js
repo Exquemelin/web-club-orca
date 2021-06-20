@@ -26,7 +26,7 @@ export const AboutScreen = () => {
                     <p> En 2010 se adquirió una nueva lancha semirrígida de 8 metros, para incorporar a la flota del club, la "14 de Marzo". Gracias a esta embarcación las salidas fueron mucho más cómodas al reducir el tiempo de navegación, llegando a realizar hasta 3 salidas en una misma mañana. Otra de las actividades más importantes del club, son los bautismos de buceo, con los que se da a conocer nuestra pasión a los gijoneses, y a los visitantes de nuestra villa en la época estival. Algunos de los cuales dieron el paso y se formaron con nosotros como buceadores. Gracias a disponer de ambas embarcaciones, había días en que se daban hasta 20 bautismos, lo que suponía al cabo del año toda una cifra récord, en los que se podía disfrutar de los fondos del espigón de la Playa de Poniente. Fondos con mucha vida que deleitaban a nuestros "bautizados". Además, se impartían cursos de buceador, y las diferentes especialidades con que cuenta la Federación Española De Actividades Subacuáticas, reconocidas por la CMAS y válidas en cualquier parte del mundo.</p>
                 </div>
                 <div className="col-lg-4 about__cols-image order-lg-last">
-                    <img className="about__image" src="/web-club-orca/assets/images/14_marzo.png" alt="Imagen de la 14 de Marzo" title="Imagen de la 14 de Marzo"></img>
+                    <img className="about__image" src="./assets/images/14_marzo.png" alt="Imagen de la 14 de Marzo" title="Imagen de la 14 de Marzo"></img>
                 </div>
             </div>
             <div className="row"> 

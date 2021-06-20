@@ -25,7 +25,7 @@ export const DivingModal = () => {
                     <h1>{ activeSite.name }</h1>
                 </Modal.Header>
                 <Modal.Body className="diving__modal-body">
-                    <img src="https://res.cloudinary.com/drnoemuze/image/upload/v1613511176/cx2brbnwutmx7rvoar0o.png" className="card-img" alt="Imagen de la inmersión"></img>
+                    <img src={ activeSite.photo } className="card-img" alt="Imagen de la inmersión"></img>
                     <p>{activeSite.description}</p>
                     <ul>
                         <li>Profundidad: { activeSite.depth }</li>

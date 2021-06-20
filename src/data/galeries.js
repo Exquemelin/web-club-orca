@@ -48,6 +48,6 @@ export const galleries = [
         name: "Cena 2009",
         url: "galeria_11_cena_2009",
         number: 18
-    },
+    }
 
 ]

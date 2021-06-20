@@ -40,7 +40,7 @@ export const LearningScreen = () => {
                                 <h5 className="card-title">FEDAS Buceador Junior</h5>
                             </div>
                             <div className="card-body learning__card-body">
-                                <img className="learning__image learning__image-test" src="./assets/images/formar_uno.jpg" alt="" />
+                                <img className="learning__image learning__image-test" src="./assets/images/formacion_bje.jpg" alt="" />
                                 <p className="card-text">Formación destinada para los menores de edad. La edad mínima para realizar este curso es de 8 años. Además, se deberá estar en posesión de la licencia federativa y pasar un reconocimiento médico.</p>
                                 <p>En función de la edad, y según el Real Decreto 550/2020, de 2 de Junio de 2020, se podrá bucear entre profundidades máximas de 6 a 40 metros.</p>
                                 <p className="card-text"><small className="text-muted">NOTA: La edad mínima, y la profundidad máxima, se ajustarán a la legislación vigente del Estado o de la Comunidad Autónoma.</small></p>
@@ -60,7 +60,7 @@ export const LearningScreen = () => {
                                 <h5 className="card-title">FEDAS Buceador 1 Estrella - CMAS 1 Star Diver</h5>
                             </div>
                             <div className="card-body learning__card-body">
-                                <img className="learning__image learning__image-test" src="./assets/images/formar_uno.jpg" alt="" />
+                                <img className="learning__image learning__image-test" src="./assets/images/formacion_b1e.jpg" alt="" />
                                 <p className="card-text">Este es el primer paso para convertirse en buceador recreativo o deportivo. La edad mínima para realizar este curso es de 14 años. Además, se deberá estar en posesión de la licencia federativa y pasar un reconocimiento médico.</p>
                                 <p>Con esta titulación se puede realizar inmersiones hasta 20 metros de profundidad, y tras 20 inmersiones registradas hasta los 25 metros.</p>
                                 <p className="card-text"><small className="text-muted">NOTA: La edad mínima, y la profundidad máxima, se ajustarán a la legislación vigente del Estado o de la Comunidad Autónoma.</small></p>
@@ -80,7 +80,7 @@ export const LearningScreen = () => {
                                 <h5 className="card-title">FEDAS Buceador 2 Estrellas - CMAS 2 Star Diver</h5>
                             </div>
                             <div className="card-body learning__card-body">
-                                <img className="learning__image learning__image-test" src="./assets/images/formar_uno.jpg" alt="" />
+                                <img className="learning__image learning__image-test" src="./assets/images/formacion_b2e.jpg" alt="" />
                                 <p className="card-text">Para acceder a este curso hay que estar en posesión del título de Buceador de 1 Estrella, o equivalente, tener registradas 20 inmersiones con esta titulación, y tener la especialidad de Soporte Vital Básico. La edad mínima para realizar este curso es de 15 años. Además, se deberá estar en posesión de la licencia federativa y tener el reconocimiento médico en vigor.</p>
                                 <p>Con esta titulación se puede realizar inmersiones hasta 40 metros de profundidad pudiendo entrar en descompresión</p>
                                 <p className="card-text"><small className="text-muted">NOTA: La edad mínima, y la profundidad máxima, se ajustarán a la legislación vigente del Estado o de la Comunidad Autónoma.</small></p>
@@ -101,7 +101,7 @@ export const LearningScreen = () => {
                             </div>
                             <div className="card-body learning__card-body">
                                 {/* <img className="learning__image learning__image-test" src="./assets/images/formar_uno.jpg" alt="" /> */}
-                                <img className="learning__image learning__image-test" src="./assets/images/formar_uno.jpg" alt="" />
+                                <img className="learning__image learning__image-test" src="./assets/images/formacion_b3e.jpg" alt="" />
                                 <p className="card-text">Para acceder a este curso hay que estar en posesión del título de Buceador de 2 Estrellas, o equivalente, tener registradas 50 inmersiones con esta titulación, y tener la especialidad de Administración de Oxígeno. La edad mínima para realizar este curso es de 16 años. Además, se deberá estar en posesión de la licencia federativa y tener el reconocimiento médico en vigor.</p>
                                 <p>Con esta titulación se puede realizar inmersiones hasta la profundidad que la mezcla de gases le permita, puendiendo entrar en descompresión. A pesar de esto, se recomienda no superar la profundidad de 40 metros.</p>
                                 <p>Se podrán organizar, dirigir, planificar y organizar inmersiones con descompresión, así como colaborar como buceador de seguridad en los cursos de buceo FEDAS.</p>

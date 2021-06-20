@@ -1,5 +1,8 @@
 import React from 'react';
 
+import Loader from "react-loader-spinner";
+
+
 
 import { useFetchSites } from '../../hook/useFetchSites';
 import { SiteGridItem } from './SiteGridItem';
@@ -18,7 +21,20 @@ export const SiteGrid = () => {
         <div>
             
             {/* Miramos si está cargando y hacemos un loading */}
-            { loading && <p className="">Loading..........</p>}
+            { loading && <div className="diving__loading">
+                
+                <Loader 
+                    type="Puff"
+                    color="#264653ff"
+                    height={200}
+                    width={200}
+                    // timeout={10000} //3 secs
+                    />
+                    <p>
+                        Please Wait ...
+                    </p>
+                
+            </div>}
 
             <div className="card-grid">
 
