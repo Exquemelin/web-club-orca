@@ -21,18 +21,20 @@ export const SiteGrid = () => {
         <div>
             
             {/* Miramos si está cargando y hacemos un loading */}
-            { loading && <div className="diving__loading">
+            { loading && <div className="diving__loading flex-column">
                 
-                <Loader 
+                <div><Loader
                     type="Puff"
                     color="#264653ff"
                     height={200}
                     width={200}
-                    // timeout={10000} //3 secs
-                    />
+                // timeout={10000} //3 secs
+                /></div>
+                <div>
                     <p>
                         Please Wait ...
                     </p>
+                </div>
                 
             </div>}
 

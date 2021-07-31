@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { LocalPhone, PhoneAndroid, PhoneIphone, Email } from '@material-ui/icons';
+
 //TODO: Considerar poner algún efecto en las fotos
 //TODO: Cambiar orden de fotos según el ancho de página
 
@@ -36,11 +38,11 @@ export const AboutScreen = () => {
                 </div>
             </div>
             <div className="row">
-                <dif className="col-lg about__cols-image">
+                <div className="col-lg about__cols-image">
                     <a href="https://www.formarbuceo.com/" target="_blank" rel="noreferrer">
                         <img className="about__image-adjust" src="./assets/images/logo_formar.jpg" alt="Logo de Formar" title="Logo de Formar"></img>
                     </a>
-                </dif>
+                </div>
             </div>
             <div className="row">
                 <div className="col-lg about__cols">
@@ -56,6 +58,22 @@ export const AboutScreen = () => {
                         <li><span style={{ fontWeight: 700 }}>Vicepresidente:</span> Luis Manuel Bañuelos Vigil</li>
                         <li><span style={{ fontWeight: 700 }}>Secretaria:</span> Amparo Quidiello Fernández</li>
                         <li><span style={{ fontWeight: 700 }}>Tesorero:</span> Iván Chao Ballesteros</li>
+                    </ul>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-lg about_cols">
+                    <p>¿Quieres contactar con nosotros?</p>
+                    <ul>
+                        <li><LocalPhone /><span>  985 194 960</span></li>
+                        <li><PhoneAndroid /><span>  609 936 816</span></li>
+                        <li><PhoneIphone /><span>  646 368 838</span></li>
+                        <li><Email /><span>  buceorca@hotmail.com</span></li>
+                    </ul>
+                    <p>Para un bautismo de buceo:</p>
+                    <ul>
+                        <li><PhoneAndroid /><span>  615 269 164</span></li>
+                        <li><Email /><span>  buceorca@hotmail.com</span></li>
                     </ul>
                 </div>
             </div>

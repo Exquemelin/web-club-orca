@@ -11,6 +11,7 @@ import { InstallationScreen } from '../components/club/InstallationScreen'
 import { StaffScreen } from '../components/club/StaffScreen'
 import { DivingScreen } from '../components/diving/DivingScreen'
 import { GalleryScreen } from '../components/gallery/GalleryScreen'
+import { HomeScreen } from '../components/home/HomeScreen'
 import { LearningScreen } from '../components/learning/LearningScreen'
 import { MobileAppScreen } from '../components/mobile/MobileAppScreen'
 import { Footer } from '../components/ui/Footer'
@@ -32,7 +33,7 @@ export const PublicRouter = () => {
                     <Route exact path="/about" component={ AboutScreen } />
                     <Route exact path="/inst" component={ InstallationScreen } />
                     <Route exact path="/staff" component={ StaffScreen } />
-                    <Route exact path="/" component={ AboutScreen } />
+                    <Route exact path="/" component={ HomeScreen } />
                     <Redirect to="/" />
                     
                 </Switch>

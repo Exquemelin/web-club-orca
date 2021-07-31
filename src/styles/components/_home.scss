@@ -1,0 +1,10 @@
+.home__page {
+    display: flex;
+    justify-content: center;
+}
+
+.home__image {
+    max-height: 800px;
+    object-fit: scale-down;
+    aspect-ratio: 1;
+}

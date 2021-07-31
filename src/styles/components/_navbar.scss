@@ -11,7 +11,9 @@
 }
 
 .dropdown-item:hover {
-    background-color: white;
+    // background-color: black;
+    background-color: lighten($color: $charcoal, $amount: 20);
+    // color: lighten($color: $charcoal, $amount: 70);
 }
 
 .navbar-toggler {
@@ -21,8 +23,6 @@
 .navbar-toggler.collapsed {
     background-color: lighten($color: $charcoal, $amount: 50);
 }
-
-
 
 .navbar__navbar {
     color: lighten($color: $charcoal, $amount: 50);
@@ -42,7 +42,8 @@
 }
 
 .navbar__link:hover {
-    color: black;
+    // color: black;
+    color: lighten($color: $charcoal, $amount: 70);
     text-decoration: none;
 }
 
@@ -67,5 +68,5 @@
 }
 
 #basic-nav-dropdown:hover {
-    color: black;
+    color: lighten($color: $charcoal, $amount: 70);
 }

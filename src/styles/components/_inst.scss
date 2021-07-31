@@ -26,11 +26,14 @@
     width: 80px;
 }
 
-// .inst__slider {
-//     // border: 3px solid red;
-//     border: 0;
-//     box-shadow: none;
-// }
+.inst__slider h3 {
+    color: lighten($color: $charcoal, $amount: 20);
+    font-weight: 600;
+    background-color: lighten($color: $charcoal, $amount: 70);
+    // border: 3px solid red;
+    // border: 0;
+    // box-shadow: none;
+}
 
 // .inst__image {
 //     // border: 3px solid yellow;

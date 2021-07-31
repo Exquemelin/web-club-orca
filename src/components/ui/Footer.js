@@ -5,6 +5,11 @@ import Twitter from '@material-ui/icons/Twitter';
 import Facebook from '@material-ui/icons/Facebook';
 
 export const Footer = () => {
+
+    // Obtenemos el año actual para añadirlo al footer
+    var today = new Date();
+    var year = today.getFullYear();
+
     return (
         <div className="container-fluid footer-body">
             {/* <h1>ESTO ES EL FOOTER!!!!</h1> */}
@@ -13,13 +18,19 @@ export const Footer = () => {
                     <h5>SÍGUENOS EN RRSS</h5>
                     <div className="row row-justify-content footer-rrss-row">
                         <div className="col-2 footer-rrss-col">
-                            <InstagramIcon />
+                            <a href="https://www.instagram.com/cluborca/" target="_blank" rel="noreferrer">
+                                <InstagramIcon />
+                            </a>
                         </div>
                         <div className="col-2 footer-rrss-col">
-                            <Twitter />
+                        <a href="https://twitter.com/ClubOrca" target="_blank" rel="noreferrer">
+                                <Twitter />
+                            </a> 
                         </div>
                         <div className="col-2 footer-rrss-col">
-                            <Facebook />
+                        <a href="https://www.facebook.com/cluborca" target="_blank" rel="noreferrer">
+                                <Facebook />
+                            </a>
                         </div>
                     </div>
                     <h5>DESCÁRGATE NUESTRA APP</h5>
@@ -46,6 +57,9 @@ export const Footer = () => {
                     </div>
                     <p></p>
                     {/* <SvgIcon component={InstagramIcon} /> */}
+                </div>
+                <div className="footer__copy">
+                    <p>Copyright { year } © Club Deportivo Orca de Actividades Subacuáticas</p>
                 </div>
             </div>
         </div>
