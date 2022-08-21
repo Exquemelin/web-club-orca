@@ -3,9 +3,136 @@
     justify-content: center;
 }
 
+.home__cols {
+    // align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // padding: auto;
+    // border: 1px solid yellow;
+    font-family: 'Nunito';
+    margin-top: 1rem;
+    text-align: justify;
+    padding-inline: 0px;
+}
 .home__image {
     max-height: 800px;
     object-fit: scale-down;
     aspect-ratio: 1;
     width: 100%;
+}
+
+.home__image-orca {
+    // width: auto;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    // padding: 15px;
+    // max-height: 200px;
+}
+
+.home__info {
+    border: 1px solid grey;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.home__info p {
+    padding-inline: 15px;
+}
+
+.home__info-icon {
+    // border: 1px solid yellow;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.home__formacion {
+    font-family: 'Nunito';
+    padding-inline: 15px;
+    font-weight: 1200;
+}
+
+.home__row-formacion {
+    margin: 0px;
+    padding: 15px;
+    position: relative;
+    color: white;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.home__cols-formacion {
+    // align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // padding: auto;
+    // border: 1px solid yellow;
+    font-family: 'Nunito';
+    // margin-top: 1rem;
+    text-align: justify;
+    padding-inline: 0px;
+}
+
+.home__row-text {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    text-align: center;
+}
+
+.home__image-formacion {
+    // width: auto;
+    width: 100%;
+    // overflow: hidden;
+    object-fit: cover;
+    // object-fit: contain;
+    // overflow: initial;
+    // padding: ;
+
+
+
+    // padding: 15px;
+    // max-height: 200px;
+}
+
+.home__actividades {
+    font-family: 'Nunito';
+    font-weight: 1200;
+    margin-top: 100px;
+    padding-inline: 15px;
+}
+
+.home__cols-actividades {
+    // align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // padding: auto;
+    // border: 1px solid yellow;
+    font-family: 'Nunito';
+    // margin-top: 1rem;
+    text-align: justify;
+    padding-inline: 15px;
+    padding-block: 15px;
+}
+
+.home__row-actividades {
+    margin: 0px;
+    padding: 15px;
+    position: relative;
+    color: white;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.home__cols-actividades-images {
+    font-family: 'Nunito';
+    // margin-top: 1rem;
+    text-align: justify;
+    padding-block: 15px;
 }

@@ -35,4 +35,5 @@ export const GalleryGridItem = ( {name, url, number} ) => {
             </div>
         </div>
     )
+
 }

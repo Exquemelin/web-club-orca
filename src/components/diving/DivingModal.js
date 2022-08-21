@@ -32,7 +32,7 @@ export const DivingModal = () => {
                         <li>Dificultad: { activeSite.dificulty }</li>
                         <li>Nivel: { activeSite.level }</li>
                         <li>Superficie: { activeSite.surface }</li>
-                        <li>Visibilidad: { activeSite.visibility }</li>
+                        {/* <li>Visibilidad: { activeSite.visibility }</li> */}
                         <li>Tipo: { activeSite.type }</li>
                         <li>Puerto: { activeSite.port }</li>
                     </ul>

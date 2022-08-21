@@ -41,7 +41,7 @@ export const LearningScreen = () => {
                             </div>
                             <div className="card-body learning__card-body">
                                 <img className="learning__image learning__image-test" src="./assets/images/formacion_bje.jpg" alt="" />
-                                <p className="card-text">Formación destinada para los menores de edad. La edad mínima para realizar este curso es de 8 años. Además, se deberá estar en posesión de la licencia federativa y pasar un reconocimiento médico.</p>
+                                <p className="card-text">Formación destinada para los menores de edad. La edad mínima para realizar este curso es de 12 años. Además, se deberá estar en posesión de la licencia federativa y pasar un reconocimiento médico.</p>
                                 <p>En función de la edad, y según el Real Decreto 550/2020, de 2 de Junio de 2020, se podrá bucear entre profundidades máximas de 6 a 40 metros.</p>
                                 <p className="card-text"><small className="text-muted">NOTA: La edad mínima, y la profundidad máxima, se ajustarán a la legislación vigente del Estado o de la Comunidad Autónoma.</small></p>
                             </div>
