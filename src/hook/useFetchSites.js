@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 
 import { getSites } from "../helpers/getSites";
 
+// TODO: Limpiar código
 
 export const useFetchSites = ( category ) => {
 
@@ -25,7 +26,7 @@ export const useFetchSites = ( category ) => {
                     loading: false
                 });
 
-                console.log( sites );
+                // console.log( sites );
 
             })
             .catch( e => {
@@ -40,6 +41,8 @@ export const useFetchSites = ( category ) => {
     //         loading: false
     //     })
     // }, 3000 );
+
+    console.log( state );
 
     // Devolvemos el state
     return state; // { data: [], loading: true }

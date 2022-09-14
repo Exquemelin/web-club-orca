@@ -8,8 +8,6 @@ import { useFetchSites } from '../../hook/useFetchSites';
 import { SiteGridItem } from './SiteGridItem';
 
 
-//TODO: Cambiar el loading por algo que no sea un mero texto
-
 export const SiteGrid = () => {
 
     // Lanzamos la consulta de los datos de las inmersiones

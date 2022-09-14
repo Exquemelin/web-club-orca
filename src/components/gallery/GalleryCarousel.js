@@ -8,34 +8,33 @@ const initialState = {
 
 export const GalleryCarousel = ( gallery ) => {
 
-    // console.log( gallery )
-
+    // Inicializamos una variable para introducir los datos de la galería
     const items = []
     
+    // Extraemos los datos del store
     const [active, setindex] = useState( initialState );
 
+    // Hacemos un bucle for para formatear el número de cada imagen
     for ( var i=1; i <= gallery.number; i++) {
-
-        // Inicializamos una variable para el index
-        // const ind = ``;
 
         // Si el índice es menor de 10, hay que poner un 0 delante
         if ( i < 10 ) {
             // console.log('menor')
             // ind = `1`
             items.push({index: `0${i}`, url: gallery.url});
-         } else {
+        } else {
             // ind = i
             items.push({index: i, url: gallery.url});
-         } 
-
-        
+        } 
+  
     };
 
-    // console.log(items);
+    console.log( gallery );
+    console.log( items );
 
-    // var index = 1;
 
+    //TODO: Borrar si no se usa
+     // Funcio´n al hacer click sobre la imagen
     const handleClick = () => {
         console.log( 'CLICK' );
 

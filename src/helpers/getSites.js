@@ -3,6 +3,8 @@
 
 import { diveSite } from "../data/diveSites";
 
+// TODO: Limpiar código
+
 //     // Preparamos la url de la consulta y la lanzamos
 //     final url = '$_url/site?token=$_apiKey';
 //     final resp = await http.get(url);
