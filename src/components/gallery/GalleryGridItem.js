@@ -1,18 +1,18 @@
 import React from 'react'
+
+
 import { useDispatch } from 'react-redux'
 import { galActiveGallery, galShowModal } from '../../actions/gal';
+
 
 // export const GalleryGridItem = ( {name, url, number, interactive, images } ) => {
 export const GalleryGridItem = ( {parameters} ) => {
 
-    console.log( parameters );
-
+    // Desestructuramos los párametros que nos llegan
     const {name, url, number, interactive, images } = parameters
 
     // Declaramos el dispatch para hacer el dispatch del store
     const dispatch = useDispatch();
-
-    console.log( images );
 
     // Declaramos una variable que tomará de forma aleatoria una imagen
     let index = Math.floor( Math.random() * number + 1 );
