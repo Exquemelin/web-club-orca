@@ -16,10 +16,6 @@ export const GalleryCarousel = ( gallery ) => {
     // Desestructuramos la variable gallery
     const { name, url, number, interactive, images } = gallery;
     
-    // TODO: Ver si se usa y quitarlo
-    // Extraemos los datos del store
-    // const [active, setindex] = useState( initialState );
-
     // Miramos si vienen las imágenes con la galería, o hay que crear el array
     if ( interactive ) {
 
@@ -34,37 +30,16 @@ export const GalleryCarousel = ( gallery ) => {
             
             // Si el índice es menor de 10, hay que poner un 0 delante
             if ( i < 10 ) {
-                // console.log('menor')
-                // ind = `1`
-                items.push({index: `0${i}`, url, photo: `0${i}_red.jpg`, name: '', owner: 'lola' });
+                items.push({index: `0${i}`, url, photo: `0${i}_red.jpg`, name: '', owner: '', instagram: '' });
             } else {
-                // ind = i
-                items.push({index: i, url, photo: `${i}_red.jpg`, name: '', owner: 'lola' });
+                items.push({index: i, url, photo: `${i}_red.jpg`, name: '', owner: '', instagram: '' });
             } 
             
         };
         
     };
 
-    // console.log( gallery );
-    // console.log( items );
-
-
-    //TODO: Borrar si no se usa
-    //  // Funcio´n al hacer click sobre la imagen
-    // const handleClick = () => {
-    //     console.log( 'CLICK' );
-
-    //         var newIndex = active.index + 2;
-
-    //         // index++
-    //         setindex( { index: newIndex } );
-
-    //         // console.log(index)
-    // }
-
-    // console.log( active );
-
+    
     return (
         <div>
             <Carousel className="inst__slider" indicators={false} >
@@ -72,7 +47,6 @@ export const GalleryCarousel = ( gallery ) => {
 
                     items.map( img => (
                         <Carousel.Item key={ img.index }
-                            // onClick={ () => handleClick( ) }
                         >
                        
                             <img 
@@ -80,30 +54,18 @@ export const GalleryCarousel = ( gallery ) => {
                                 src={ `./assets/galery/${ url }/${ img.photo }` }
                                 alt={ `${ img.index }` }
                             />
-                            <Carousel.Caption>
-                                <h3>{ img.name }</h3>
-                                <p>{ img.owner }</p>
-                            </Carousel.Caption>
+                            { !!img.owner ?
+                                <Carousel.Caption>
+                                    <h3>{ img.name }</h3>
+                                    <a className="galery__carousel_link" href={`http://www.instagram.com/${ img.instagram}`} target="_blank" rel="noreferrer">Foto de: { img.owner }</a>
+                                </Carousel.Caption>
+                            : <p></p>}
                         </Carousel.Item>
                     ))
                 }
-                {/* <ol className="carousel-indicators">
-                    {
-                        // items.map(( item, index ) => {
-                        //     return (
-                        //         <li className="galery__carousel-list"
-                        //             key={ item.index }
-                        //             style={{ backgroundImage: `./assets/galery/${ item.url }/${ item.index }_red.jpg` }}
-                        //         />
-                        //     )
-                        // })
-                    }
-                </ol> */}
-                {/* <div>
-                    <button type="button"> TEST </button>
-                </div> */}
+                
             </Carousel>
-            {/* <GalleryIndicators items /> */}
+            
         </div>
     )
 }

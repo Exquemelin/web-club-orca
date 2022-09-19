@@ -5,56 +5,64 @@
             "url": "galeria_22_fishes",
             "index": "01",
             "name": "Orquidea",
-            "owner": "@pulperu"
+            "owner": "Álvaro Arias",
+            "instagram": "pulperu"
         },
         {
             "photo": "02_red.jpg",
             "url": "galeria_22_fishes",
             "index": "02",
             "name": "Orquidea",
-            "owner": "@pulperu"
+            "owner": "Álvaro Arias",
+            "instagram": "pulperu"
         },
         {
             "photo": "03_red.jpg",
             "url": "galeria_22_fishes",
             "index": "03",
             "name": "Orquidea",
-            "owner": "@pulperu"
+            "owner": "Álvaro Arias",
+            "instagram": "pulperu"
         },
         {
             "photo": "04_red.jpg",
             "url": "galeria_22_fishes",
             "index": "04",
             "name": "Orquidea",
-            "owner": "@pulperu"
+            "owner": "Álvaro Arias",
+            "instagram": "pulperu"
         },
         {
             "photo": "05_red.jpg",
             "url": "galeria_22_fishes",
             "index": "05",
             "name": "Orquidea",
-            "owner": "@pulperu"
+            "owner": "Álvaro Arias",
+            "instagram": "pulperu"
         },
         {
             "photo": "06_red.jpg",
             "url": "galeria_22_fishes",
             "index": "06",
             "name": "Orquidea",
-            "owner": "@pulperu"
+            "owner": "Álvaro Arias",
+            "instagram": "pulperu"
         },
         {
             "photo": "07_red.jpg",
             "url": "galeria_22_fishes",
             "index": "07",
             "name": "Orquidea",
-            "owner": "@pulperu"
+            "owner": "Álvaro Arias",
+            "instagram": "pulperu"
         },
         {
             "photo": "08_red.jpg",
             "url": "galeria_22_fishes",
             "index": "08",
             "name": "Orquidea",
-            "owner": "@pulperu"
+            "owner": "Álvaro Arias",
+            "instagram": "pulperu"
         }    
     ]
 }  

@@ -5,8 +5,6 @@ import { useDispatch, useSelector } from 'react-redux'
 
 import { galHideModal } from '../../actions/gal';
 import { GalleryCarousel } from './GalleryCarousel';
-// import { GalleryIndicators } from './GalleryIndicators';
-// import { GalleryIndicators } from './GalleryIndicators';
 
 
 export const GalleryModal = () => {

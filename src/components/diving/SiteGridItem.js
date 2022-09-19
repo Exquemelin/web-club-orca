@@ -10,8 +10,6 @@ export const SiteGridItem = ( site ) => {
     // Declaramos el dispatch para hacer el dispatch de las actions de la store
     const dispatch = useDispatch()
 
-    // console.log( site.photo );
-
     // Función que lanzamos al hacer click e ver los datos de la inmersión
     const handleClick = () => {
 
@@ -22,8 +20,6 @@ export const SiteGridItem = ( site ) => {
         dispatch( siteShowModal() );
 
     };
-
-    //TODO: Cambiar la url por la que corresponda
 
     return (
         <div className="col diving__col">

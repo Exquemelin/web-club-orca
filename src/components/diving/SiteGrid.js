@@ -13,8 +13,6 @@ export const SiteGrid = () => {
     // Lanzamos la consulta de los datos de las inmersiones
     const { data, loading } = useFetchSites();
 
-    console.log( data );
-
     return (
         <div>
             
